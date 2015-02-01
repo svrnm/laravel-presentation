@@ -39,6 +39,14 @@
     </section>
 
     <section class="slide">
+        <h2>About</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Why Laravel &dash; my humble opinion</h2>
+    </section>
+
+    <section class="slide">
         <h2>Laravel Philosophy</h2>
         <div class="slide-box">
         <ul>
