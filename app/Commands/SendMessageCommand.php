@@ -32,7 +32,7 @@ class SendMessageCommand extends Command implements SelfHandling, ShouldBeQueued
 	{
 		$body = $this->message->body;
 		\Mail::send('emails.message', ['body' => $body], function($mail) {
-			$mail->to('severin@localhost')->subject('Sie haben Post!');
+			$mail->to('severin@localhost')->subject("You've got mail");
 		});
 	}
 

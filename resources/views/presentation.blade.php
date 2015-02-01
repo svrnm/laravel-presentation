@@ -54,8 +54,8 @@
                 <li>Productive Prototype of <a href="http://www.elearning-ag.de">eLearning AG</a>'s services in <strong>framework-less</strong>
                     PHP.
                 </li>
-                <li>Code cleanup, Refactoring and Rewriting was an urgend need.</li>
-                <li>Previous expierience with frameworks was disappointing and unsatisfactory.</li>
+                <li>Code cleanup, Refactoring and Rewriting was an urgent need.</li>
+                <li>Previous experience with frameworks was disappointing and unsatisfactory.</li>
                 <li><strong>test and reject</strong><sup>*</sup>:
                     <ul>
                         <li>Symfony 2 &DoubleRightArrow; Complex, steep <em>starting</em> curve, YAML</li>
