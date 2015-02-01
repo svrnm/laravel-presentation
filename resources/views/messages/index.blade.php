@@ -6,7 +6,7 @@
         <thead>
         <th>ID</th>
         <th>Text</th>
-        <th>Erstellt Am</th>
+        <th>Created at</th>
         </thead>
         @forelse($messages as $message)
             <tr>
@@ -17,7 +17,7 @@
         @empty
             <tr>
                 <td colspan="3">
-                    Keine Nachrichten vorhanden!
+                    No messages.
                 </td>
             </tr>
         @endforelse
