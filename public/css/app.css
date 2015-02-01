@@ -6231,3 +6231,8 @@ label,
 .checkbox label {
   font-weight: 300;
 }
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -39,33 +39,61 @@
     </section>
 
     <section class="slide">
-        <h2>About</h2>
+        <h2>About me</h2>
+        <div class="slide-box">
+
+        </div>
     </section>
 
+
     <section class="slide">
-        <h2>Why Laravel &dash; my humble opinion</h2>
+        <h2>My Laravel Story</h2>
+
+        <div class="slide-box">
+            <ul>
+                <li>Productive Prototype of <a href="http://www.elearning-ag.de">eLearning AG</a>'s services in <strong>framework-less</strong>
+                    PHP.
+                </li>
+                <li>Code cleanup, Refactoring and Rewriting was an urgend need.</li>
+                <li>Previous expierience with frameworks was disappointing and unsatisfactory.</li>
+                <li><strong>test and reject</strong><sup>*</sup>:
+                    <ul>
+                        <li>Symfony 2 &DoubleRightArrow; Complex, steep <em>starting</em> curve, YAML</li>
+                        <li>Zend Framework 2 &DoubleRightArrow; Complex, steep <em>starting</em> curve</li>
+                        <li>CodeIgniter &DoubleRightArrow; user-unfriendly documentation</li>
+                        <li>Laravel &DoubleRightArrow; Real Quickstart, small&good documentation, later: <a href="https://laracasts.com/">Laracasts</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                <sup>* reproduced from my biased memory</sup>
+            </p>
+        </div>
     </section>
 
     <section class="slide">
         <h2>Laravel Philosophy</h2>
+
         <div class="slide-box">
-        <ul>
-            <li>web application framework with expressive, elegant syntax.</li>
-            <li>easing common tasks, such as authentication, routing, sessions, and caching</li>
-            <li>combine the very best of other web frameworks, such as Ruby on Rails, ASP.NET MVC, and Sinatra.</li>
-            <li>A superb inversion of control container, expressive migration system, tightly integrated unit
-                testing support.
-            </li>
-        </ul>
-        <p>
-            <small>(Source: <a href="http://laravel.com/docs/master#laravel-philosophy">http://laravel.com/docs/master#laravel-philosophy</a>)</small>
-        </p>
+            <ul>
+                <li>web application framework with expressive, elegant syntax.</li>
+                <li>easing common tasks, such as authentication, routing, sessions, and caching</li>
+                <li>combine the very best of other web frameworks, such as Ruby on Rails, ASP.NET MVC, and Sinatra.</li>
+                <li>A superb inversion of control container, expressive migration system, tightly integrated unit
+                    testing support.
+                </li>
+            </ul>
+            <p>
+                <small>(Source: <a href="http://laravel.com/docs/master#laravel-philosophy">http://laravel.com/docs/master#laravel-philosophy</a>)
+                </small>
+            </p>
         </div>
 
     </section>
 
     <section class="slide">
         <h2>Laravel 5 - What's new</h2>
+
         <div class="slide-box">
             <ul>
                 <li>Directory Structure</li>
@@ -90,7 +118,8 @@
                 <!--<li>New Generators</li>-->
             </ul>
             <p>
-                <small>(Source: <a href="https://laravel-news.com/2015/01/laravel-5/">https://laravel-news.com/2015/01/laravel-5/</a>)</small>
+                <small>(Source: <a href="https://laravel-news.com/2015/01/laravel-5/">https://laravel-news.com/2015/01/laravel-5/</a>)
+                </small>
             </p>
         </div>
     </section>

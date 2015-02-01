@@ -8,10 +8,9 @@
 				padding: 0;
 				width: 100%;
 				height: 100%;
-				color: #B0BEC5;
+				color: #333;
 				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
+				font-weight: 400;
 			}
 
 			.container {
@@ -38,8 +37,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="title">{{ isset($name) ? 'Welcome '.$name.'!'  : 'Laravel 5' }}</div>
 			</div>
 		</div>
 	</body>

@@ -22,7 +22,7 @@
   font-family: 'Source Code Pro';
   font-style: italic;
   font-weight: 700;
-  src: local('Source Code Pro Light Bold Italic'), url(fonts/SourceCodeProLight.woff) format('woff');
+  src: local('Source Code Pro Light Bold Italic'), url(fonts/SourceCodeProLightBold.woff) format('woff');
 }
 
 

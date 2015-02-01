@@ -11,5 +11,12 @@
 |
 */
 
-Route::get('/presentation', 'PresentationController@present');
 
+
+Route::get('welcome/{name?}', function($name = null) {
+   return view('welcome', compact("name"));
+});
+
+Route::get('messages/', 'MessageController@index');
+Route::get('messages/create/{body}', 'MessageController@create');
+Route::get('messages/{id}', 'MessageController@show');
