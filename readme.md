@@ -1,3 +1,7 @@
+## Laravel Presentation ##
+
+This is a prepared laravel installation for giving a presentation about laravel. Since .env and config are modified, you should not use this fork for real applications. 
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
