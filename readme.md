@@ -1,6 +1,8 @@
 # Laravel Presentation #
 
-This is a prepared laravel installation for giving a presentation about laravel. **You should not use this fork for real applications.** 
+This is a prepared laravel installation for giving a presentation about laravel. I used the following for my talk about Laravel at the 36. meeting of [PHPUG Rheinhessen](http://www.phpug-rheinhessen.de/)
+
+**You should not use this fork for real applications.** 
 
 ## Modifications ##
 
@@ -247,6 +249,17 @@ php artisan queue:work
 php artisan queue:listen
 ```
 
+### Possible next steps ###
+
+If you'd like to test some more features of Laravel, you can try the following things:
+
+- Adding an event + handler for sending the email
+- Writing a form for message creation
+- Add validation
+- ...
+
+
+
 ### Further reading ###
 
 The given presentation gives only a overview about Laravel. To learn more about Laravel I can suggest:
@@ -270,3 +283,4 @@ This presentation uses and includes the following projects/tools/fonts:
 - deck.js is licensed under the [MIT license](https://github.com/imakewebthings/deck.js/blob/master/MIT-license.txt)
 - Laravel Debugbar is licensed under [https://github.com/barryvdh/laravel-debugbar/blob/master/LICENSE](https://github.com/barryvdh/laravel-debugbar/blob/master/LICENSE)
 - Source Code Pro is licensed under the [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-code-pro/blob/master/LICENSE.txt)
+- This presentation is licendes under the [MIT license](http://opensource.org/licenses/MIT)
