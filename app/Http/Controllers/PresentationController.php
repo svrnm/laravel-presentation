@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 
 class PresentationController extends Controller {
 
-	public function present() {
+	public function present($lang) {
+        \App::setLocale($lang);
         \Debugbar::disable();
         return view('presentation');
     }

@@ -1,4 +1,4 @@
-]()# Laravel Presentation #
+# Laravel Presentation #
 
 This is a prepared laravel installation for giving a presentation about laravel. **You should not use this fork for real applications.** 
 
