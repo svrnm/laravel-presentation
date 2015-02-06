@@ -18,8 +18,20 @@ This is a prepared laravel installation for giving a presentation about laravel.
 ## How to use/redo this presentation ##
 
 ### Preparation ###
-- Checkout this git repository
-- Use your terminal to clear all files which will be redone during the presentation:
+- Checkout this git repository:
+
+```
+git clone https://github.com/svrnm/laravel-presentation.git
+```
+
+- Change your current working directory inside the project and install all dependencies:
+
+```
+cd laravel-presentation
+composer install
+```
+
+- Clear all files which will be redone during the presentation:
 
 ```
 php artisan presentation:empty
@@ -32,8 +44,9 @@ php artisan serve
 ```
 
 ### View the slides ###
-- Open the [presentation](http://localhost:8000/presentation) in your browser for some informations about Laravel.
+- Open the [presentation](http://localhost:8000/presentation/en) in your browser for some informations about Laravel.
 - If you'd like to present these slides to other people yourself, you should change the personal informations to reflect your own story.
+- If you prefer a german version of the presentation, open http://localhost:8000/presentation/de
 
 ### Routes Hello World ###
 
