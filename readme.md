@@ -170,7 +170,7 @@ public function create($body)
 ### Mail, Command and Queue ###
 
 - Finally, we'd like to send a notification mail each time a message is created. The sending of this mail should happen asynchronously, since the web request may be delayed.
-- So, modifiy the *create* function:
+- So, modify the *create* function:
 
 ```php
 public function create($body)
